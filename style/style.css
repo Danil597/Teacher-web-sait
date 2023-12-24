@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: url(../img/drevnyaya_rus_1920h500_5_0\ \(1\)-photoaidcom-darken\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    display: flex;
+    align-items: flex-end;
+}
+nav{
+    margin: 4rem auto;
+    position: relative;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    gap: 11rem;
+    list-style: none;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav a::after {
+    content: '';
+    background-color: #ffffff;
+    height: 2px;
+    width: 0;
+    transition: 0.5s all;
+    border-radius: 10px;
+    display: flex;
+}
+nav a:hover::after {
+    width: 100%;
+}
+
+.text-header{
+    position: absolute;
+    width: 100%;
+    height: 21rem;
+    color: white;
+    text-align: center;
+}
+.text-header p{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 24px;
+}
+.text-header h1{
+    font-size: 53px;
+}
+.hello-block{
+    width: 50rem;
+    height: 23rem;
+    background-color:#E4E2DE;
+    margin: 9rem auto;    
+    display: flex;
+    /* align-items: center; */
+}
+.hello-block img{
+    width: 313px;
+    height: 302px;
+    margin: 2rem 1rem;
+    border-radius: 228px 
+}
+.text-block{
+    margin: 3rem 4rem;
+    width: 39%;
+}
+.text-block h1{
+    margin-bottom: 2rem;
+    text-align: end;
+}
+.text-block p{
+    text-align: center;
+}
+.hello-block button{
+    width: 220px;
+    height: 56px;
+    margin: 2rem 3rem;
+    background-color: #D5C9AC;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.hello-block button:hover {
+    background-color: #aaa08a;
+    box-shadow: 0px 0px 15px 2px #a9a08b;
+}
+
+.about-me {
+    width: 90%;
+    height: 700px;
+    background-color: #FFFCEA;
+    margin: -2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.img1 {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    margin: 6rem 69rem;
+}
+.img2 {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    margin: 26rem 8rem;
+}
+.about-me h1 {
+    margin-top: 1rem;
+    text-align: center;
+}
+.about-me-block1 {
+    margin: 3rem 18rem;
+}
+.about-me-block2 {
+    margin: -2rem 17rem;
+}
+.about-me-block3 {
+    margin: 6rem 37rem;
+    width: 50%;
+}
+.about-me-block4 {
+    margin: -4rem 37rem;
+}
+.photo {
+    margin-top: 7rem;
+    text-align: center;
+}
+.slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    transition: transform 0.5s ease-in-out;
+}
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider-container {
+    position: relative;
+    width: 651px;
+    height: 548px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.next-button:hover, .prev-button:hover{
+    background-color: white;
+    color: #000000;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+footer {
+    background-image: url(../img/drevnyaya_rus_1920h500_5_0\ \(1\)-photoaidcom-darken\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+.footer-text h1 {
+    color: white;
+    position: absolute;
+    margin: 5rem auto;
+}
+.contact {
+    color: white;
+    position: absolute;
+    margin: 18rem auto;
+    display: flex;
+    gap: 7rem;
+    font-size: 24px;
+}
+.social {
+    display: flex;
+    gap: 2rem;
+    margin-left: -6rem;
+}
+
+.up-btn{
+    width: 50px;
+    height: 50px;
+    background-color: #D5C9AC;
+    border-radius: 50px;
+    position: fixed;
+    margin: 3rem;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.up-btn a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    animation: up 2s ease-in-out 1s infinite;
+}
+
+@keyframes up {
+    0% {
+        transform: translate(0px, 0%);
+    }
+    50% {
+        transform: translate(0px, -10%);
+    }
+    100% {
+        transform: translate(0px, 0%);
+    }
+}

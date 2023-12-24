@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url(../img/drevnyaya_rus_1920h500_5_0\ \(1\)-photoaidcom-darken\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    display: flex;
+    align-items: flex-end;
+}
+nav{
+    margin: 4rem auto;
+    position: relative;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    gap: 11rem;
+    list-style: none;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav a::after {
+    content: '';
+    background-color: #ffffff;
+    height: 2px;
+    width: 0;
+    transition: 0.5s all;
+    border-radius: 10px;
+    display: flex;
+}
+nav a:hover::after {
+    width: 100%;
+}
+
+.text-header{
+    position: absolute;
+    width: 100%;
+    height: 21rem;
+    color: white;
+    text-align: center;
+}
+.text-header p{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 24px;
+}
+.text-header h1{
+    font-size: 53px;
+}
+
+.people-block h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.block1 img {
+    width: 165px;
+    height: 230px;
+}
+.block1 {
+    display: flex;
+    margin: 2rem;
+    height: 14rem;
+}
+.block1 p {
+    width: 35rem;
+    margin: 1rem;
+}
+.block1 button {
+    margin: 12rem -36rem;
+    width: 123px;
+    height: 32px;
+    background-color: #D5C9AC;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.block1 button:hover {
+    background-color: #aaa08a;
+}
+.block2 img {
+    width: 165px;
+    height: 230px;
+}
+.block2 {
+    display: flex;
+    margin: 1rem;
+    flex-direction: row-reverse;
+    height: 15rem;
+}
+
+.block2 p {
+    width: 38rem;
+    margin: 1rem;
+    height: 9rem;
+}
+.block2 button {
+    margin: 9rem 3rem;
+    width: 123px;
+    height: 32px;
+    background-color: #D5C9AC;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.block2 a {
+    width: 30px;
+    height: 30px;
+}
+.block2 button:hover {
+    background-color: #aaa08a;
+}
+
+.block3 img {
+    width: 185px;
+    height: 218px;
+}
+.block3 {
+    display: flex;
+    margin: 2rem;
+    height: 14rem;
+}
+.block3 p {
+    width: 35rem;
+    margin: 1rem;
+}
+.block3 button {
+    margin: 9rem -36rem;
+    width: 123px;
+    height: 32px;
+    background-color: #D5C9AC;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.block3 button:hover {
+    background-color: #aaa08a;
+}
+
+.block4 img {
+    width: 165px;
+    height: 230px;
+}
+.block4 {
+    display: flex;
+    margin: 1rem;
+    flex-direction: row-reverse;
+    height: 15rem;
+}
+
+.block4 p {
+    width: 36rem;
+    margin: 1rem;
+    height: 7rem;
+}
+.block4 button {
+    margin: 10rem 3rem;
+    width: 123px;
+    height: 32px;
+    background-color: #D5C9AC;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.block4 a {
+    width: 30px;
+    height: 30px;
+}
+    
+.block4 button:hover {
+    background-color: #aaa08a;
+}
+
+.block5 img {
+    width: 185px;
+    height: 218px;
+}
+.block5 {
+    display: flex;
+    margin: 2rem;
+    height: 14rem;
+}
+.block5 p {
+    width: 35rem;
+    margin: 1rem;
+    height: 7rem;
+}
+.block5 button {
+    margin: 10rem -36rem;
+    width: 123px;
+    height: 32px;
+    background-color: #D5C9AC;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.block5 button:hover {
+    background-color: #aaa08a;
+}
+
+.block6 img {
+    width: 200px;
+    height: 230px;
+}
+.block6 {
+    display: flex;
+    margin: 1rem;
+    flex-direction: row-reverse;
+    height: 15rem;
+}
+
+.block6 p {
+    width: 36rem;
+    margin: 1rem;
+    height: 7rem;
+}
+.block6 button {
+    margin: 10rem 3rem;
+    width: 123px;
+    height: 32px;
+    background-color: #D5C9AC;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.block6 a {
+    width: 30px;
+    height: 30px;
+}
+.block6 button:hover {
+    background-color: #aaa08a;
+}
+
+footer {
+    background-image: url(../img/drevnyaya_rus_1920h500_5_0\ \(1\)-photoaidcom-darken\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+.footer-text h1 {
+    color: white;
+    position: absolute;
+    margin: 5rem auto;
+}
+.contact {
+    color: white;
+    position: absolute;
+    margin: 18rem auto;
+    display: flex;
+    gap: 7rem;
+    font-size: 24px;
+}
+.social {
+    display: flex;
+    gap: 2rem;
+    margin-left: -6rem;
+}
+
+.up-btn{
+    width: 50px;
+    height: 50px;
+    background-color: #D5C9AC;
+    border-radius: 50px;
+    position: fixed;
+    margin: 3rem;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.up-btn a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    animation: up 2s ease-in-out 1s infinite;
+}
+
+@keyframes up {
+    0% {
+        transform: translate(0px, 0%);
+    }
+    50% {
+        transform: translate(0px, -10%);
+    }
+    100% {
+        transform: translate(0px, 0%);
+    }
+}
